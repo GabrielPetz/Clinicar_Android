@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "705867349967",
+    "firebase_url": "https://clinicar-ccfd6.firebaseio.com",
+    "project_id": "clinicar-ccfd6",
+    "storage_bucket": "clinicar-ccfd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705867349967:android:e0f885b29e0e5ab8",
+        "android_client_info": {
+          "package_name": "br.com.clinicar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705867349967-t0livkkci14h4k99o76ds0i5s5eul8vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA4uP12DRN_nfYVyJY1VQa4-qfNf34ZB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705867349967:android:94e269f67c6d0b40",
+        "android_client_info": {
+          "package_name": "clinicar.com.br.clinicar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705867349967-ms84bp13j78is7js9u10j8moaaknkm01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "clinicar.com.br.clinicar",
+            "certificate_hash": "294094ffdacc7e175b6ba93d68ac5dd4427e516b"
+          }
+        },
+        {
+          "client_id": "705867349967-t0livkkci14h4k99o76ds0i5s5eul8vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA4uP12DRN_nfYVyJY1VQa4-qfNf34ZB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705867349967-t0livkkci14h4k99o76ds0i5s5eul8vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
