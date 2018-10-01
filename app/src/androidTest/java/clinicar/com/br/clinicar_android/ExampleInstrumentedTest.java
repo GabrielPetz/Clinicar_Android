@@ -1,4 +1,4 @@
-package clinicar.com.br.clinicar;
+package clinicar.com.br.clinicar_android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("clinicar.com.br.clinicar", appContext.getPackageName());
+        assertEquals("clinicar.com.br.clinicar_android", appContext.getPackageName());
     }
 }

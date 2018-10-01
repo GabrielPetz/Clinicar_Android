@@ -80,6 +80,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705867349967:android:254ffcc875557a17",
+        "android_client_info": {
+          "package_name": "clinicar.com.br.clinicar_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705867349967-ln70lrbgoumb0q19i43of5qipnm5vknm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "clinicar.com.br.clinicar_android",
+            "certificate_hash": "294094ffdacc7e175b6ba93d68ac5dd4427e516b"
+          }
+        },
+        {
+          "client_id": "705867349967-t0livkkci14h4k99o76ds0i5s5eul8vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA4uP12DRN_nfYVyJY1VQa4-qfNf34ZB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705867349967-t0livkkci14h4k99o76ds0i5s5eul8vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

@@ -1,4 +1,4 @@
-package clinicar.com.br.clinicar;
+package clinicar.com.br.clinicar_android;
 
 import org.junit.Test;
 

@@ -1,9 +1,9 @@
-package clinicar.com.br.clinicar.activities;
+package clinicar.com.br.activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -12,14 +12,18 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
-import clinicar.com.br.clinicar.R;
+import clinicar.com.br.clinicar_android.R;
 
-public class RegisterActivity extends AppCompatActivity {
+
+public class RegisterActivity extends Activity {
 
     private EditText password;
     private EditText email;
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference mDataBase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         password = findViewById(R.id.password);
         email = findViewById(R.id.email);
-
+        mDataBase = FirebaseDatabase.getInstance().getReference("user");
         firebaseAuth = FirebaseAuth.getInstance();
     }
 
