@@ -23,13 +23,13 @@
         <activity android:name="clinicar.com.br.activities.EditUserActivity"></activity>
         <activity android:name="clinicar.com.br.activities.HomeActivity"></activity>
         <activity android:name="clinicar.com.br.activities.RegisterActivity"></activity>
-
         <activity android:name="me.iwf.photopicker.PhotoPickerActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             />
 
         <activity android:name="me.iwf.photopicker.PhotoPagerActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
 
 
     </application>

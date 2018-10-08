@@ -6,19 +6,6 @@
     android:orientation="vertical"
     tools:context="clinicar.com.br.activities.EditUserActivity">
 
-
-    <TextView
-        android:text="Email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
-
-    <EditText
-        android:id="@+id/email"
-        android:hint="Email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <Button
         android:onClick="photoPickerFunction"
         android:id="@+id/btnFoto"
@@ -56,6 +43,12 @@
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="saveUserInfo"
+        android:text="Salvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
